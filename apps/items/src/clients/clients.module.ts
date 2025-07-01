@@ -16,5 +16,6 @@ import { createPaymentsClient } from './payments.client';
       inject: [ConfigService],
     },
   ],
+  exports: [CLIENTS],
 })
 export class ClientsModule {}
